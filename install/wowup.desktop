@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=WowUp
+NoDisplay=false
+Icon=/home/<USER>/games/wowup/wowup.png
+Exec="/home/<USER>/games/wowup/<APP>" --no-sandbox
+Terminal=false
+Categories=Game;
