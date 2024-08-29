@@ -1,0 +1,20 @@
+.xfce4-panel {
+    background-color: rgba(68,68,68,1);
+}
+
+.xfce4-panel .tasklist .toggle:hover {
+    background: rgb(41, 41, 41)
+}
+
+.xfce4-panel .tasklist .toggle:checked {
+    background: rgba(240,84,76,0.96);
+}
+
+.xfce4-panel .tasklist .toggle:checked label {
+    color: white;
+}
+
+.xfce4-panel .tasklist .toggle label {
+    /*color: rgb(134, 136, 134)*/
+    color: rgb(192,192,192);
+}
