@@ -1,0 +1,10 @@
+[Unit]
+Description=window tiling manager
+After=graphical.target
+
+[Service]
+ExecStart=/opt/cortile/cortile
+Restart=always
+
+[Install]
+WantedBy=default.target

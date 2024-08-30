@@ -1,6 +1,5 @@
 # citrus
-personal linux notes, scripts, and tools
+scripts and configs for freshly squeezed linux install
 
 ### todo
-- cortile install script
 - sct install script
