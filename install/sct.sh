@@ -4,6 +4,10 @@ script_dir=$(dirname $(realpath -s "$0"))
 user=$(whoami)
 build_dir=$script_dir/build
 
+if [ ! "$(dpkg -s build-essential | grep installed)" ]; then
+    sudo apt install build-essential
+fi
+
 if [ ! "$(dpkg -s libx11-dev | grep installed)" ]; then
     sudo apt install libx11-dev
 fi
@@ -19,10 +23,6 @@ fi
 
 if ! type jq > /dev/null; then
     sudo apt install jq
-fi
-
-if ! type make > /dev/null; then
-    sudo apt install make
 fi
 
 if ! type wget > /dev/null; then
