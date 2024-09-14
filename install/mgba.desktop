@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=mGBA
+NoDisplay=false
+Icon=/home/<USER>/games/gameboy/mgba.png
+Exec="/home/<USER>/games/gameboy/<APP>"
+Terminal=false
+Categories=Game;
