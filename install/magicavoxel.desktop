@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=MagicaVoxel
+NoDisplay=false
+Icon=/opt/magicavoxel/magicavoxel.png
+Exec=wine "/opt/magicavoxel/MagicaVoxel-0.99.7.1-win64/MagicaVoxel.exe"
+Terminal=false
+Categories=Graphics;
